@@ -1,0 +1,208 @@
+/*
+Theme Name: FORMLOS Skelett
+Author: FORMLOS Berlin
+Author URI: https://www.formlos-berlin.de/ 
+Version: 2.1.1
+Text Domain: formlos-skelett
+
+
+*/
+
+
+
+/* general */
+
+
+*{ 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+}
+
+body{
+    font-size:100%;
+}
+
+#wrapper{
+    margin:0 auto;
+    width:100%;
+    max-width:1100px;
+}
+
+#main{
+    padding:0 20px;
+}
+
+img{
+	width:100%;
+	height:auto;
+}
+
+/* typography */
+
+
+p{
+	margin-bottom: .75em;
+	line-height: 1.2em;
+	font-size: 1em;
+}
+
+h1,h2,h3,h4{
+	margin-bottom: .75em;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.875em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1.2em;
+}
+
+a{ 
+	text-decoration:none;
+}
+
+ul, ol{
+    padding-left:20px;
+    margin-bottom:.75em;
+}
+
+
+/* header */
+
+
+header{
+	
+}
+
+nav{
+	max-width:1100px;
+    width:100%;
+}
+
+nav ul{
+    list-style-type: none;
+	display:flex;
+    padding-left:0;
+    justify-content: space-between;
+    margin-bottom:0;
+}
+
+nav ul li{
+	display:block;
+	width:100%;
+	text-align: center;
+}
+
+nav ul li a{
+    width:100%;
+    padding:10px 0;
+    display:block;
+}
+
+nav ul li:hover a{
+    
+}
+
+nav ul li ul.sub-menu{
+    display:none;
+}
+
+nav ul li:hover > ul.sub-menu{
+    display:block;
+    position:absolute;
+}
+nav ul li ul.sub-menu li{
+    display:block;
+}
+
+/* Footer */
+
+footer {
+
+}
+
+#footercontent{
+
+}
+.menu-footer-container{
+	width:100%;
+	max-width:1100px;
+	margin:0 auto;
+}
+#footercontent #menu-footer{
+    display:flex;
+    justify-content: space-around;
+}
+
+#footercontent #menu-footer li{
+	display: block;
+    width:100%;
+    text-align: center;
+}
+
+#footercontent #menu-footer li a{
+    width:100%;
+    padding:10px 0;
+	display:block;
+}
+
+
+/*404 - Error*/
+
+.error404{
+    
+}
+
+/* Template - ? */
+
+/* Media Queries */
+
+@media (max-width: 1200px)
+{
+}
+
+@media (max-width: 1100px)
+{
+}
+
+@media (max-width: 1024px)
+{
+}
+
+@media (max-width: 980px)
+{
+}
+
+@media (max-width: 960px)
+{
+}
+
+@media (max-width: 940px)
+{
+}
+
+@media (max-width: 840px)
+{
+}
+
+@media (max-width: 768px)
+{
+}
+
+@media (max-width: 640px)
+{
+}
+
+@media (max-width: 480px)
+{
+}
