@@ -11,4 +11,6 @@
 	}
 	
 	get_footer();
+
+//testkram
 ?>
